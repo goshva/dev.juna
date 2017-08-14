@@ -1,2 +1,19 @@
+@import "breakpoints.scss";
 body
-  background-color: #000;
+  background-color: #fff;
+.container
+  margin: auto;
+  @include respond-to(small) 
+    width: 100%;
+    background-color: #0c0;
+  @include respond-to(medium) 
+    width: 100%;
+    background-color: #00c;
+  @include respond-to(large) 
+    width: 90%;
+    background-color: #c00;
+     
+     
+     
+  
+

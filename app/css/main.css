@@ -1,2 +1,17 @@
 body {
-  background-color: #000; }
+  background-color: #fff; }
+
+.container {
+  margin: auto; }
+  @media (min-width: 767px) {
+    .container {
+      width: 100%;
+      background-color: #0c0; } }
+  @media (min-width: 992px) {
+    .container {
+      width: 100%;
+      background-color: #00c; } }
+  @media (min-width: 1200px) {
+    .container {
+      width: 90%;
+      background-color: #c00; } }
